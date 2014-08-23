@@ -4,7 +4,7 @@ disqus_shortname: recklessdev
 reading_time:     true
 words_per_minute: 200
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:			   http://recklessdev.github.io/
+url:			   
 
 # Owner/author information
 owner:
@@ -37,7 +37,7 @@ bing_verify:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-highlighter: none
+highlighter: Pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
@@ -69,7 +69,7 @@ defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
-      type: post
+      type: posts
     values:
       layout: "post"
       comments: true
