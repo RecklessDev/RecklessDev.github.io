@@ -1,0 +1,41 @@
+---
+title: "Spot the bug"
+---
+
+<div class="css-full-post-content js-full-post-content">
+<pre class="brush: csharp;">private Dictionary&lt;Cell, IBlockEntity&gt; _board;<br /><br />public void RemoveBlock(IBlockEntity block)<br />{<br />    var location = _board.FirstOrDefault(pair =&gt; pair.Value.Equals(block)).Key;<br />    Despawn(block);<br />    _board[location] = null;<br />}<br /></pre><br /><p>Calling the above code multiple times, under certain circumstances, will cause a crash.</p><br /><p>The above snippet is a minimal version of the actual code I was debugging from which I stripped some method calls and parameter validity checks, but even so, I spent way more time than I want to admit in fixing the issue. In my defense the code is much bigger than this and I wasn't sure where the error is, but still… </p>  
+</div>
+<div class="css-full-comments-content js-full-comments-content">
+<div class="css-full-comment js-full-comment">
+  <div class="css-comment-user-link js-comment-user-link">
+  <a href="http://www.blogger.com/profile/12952510818318130046">
+  <div class="css-comment-name js-comment-name">
+    Vlad 'George' Meșco
+  </div>
+  </a>
+  <div class="css-comment-date js-comment-date">
+    2014-07-28T07:07:50.640Z
+  </div>
+  </div>
+  <div class="css-comment-content js-comment-content">
+    FIRST
+  </div>
+  <br/>
+</div>
+<div class="css-full-comment js-full-comment">
+  <div class="css-comment-user-link js-comment-user-link">
+  <a href="http://www.blogger.com/profile/12952510818318130046">
+  <div class="css-comment-name js-comment-name">
+    Vlad 'George' Meșco
+  </div>
+  </a>
+  <div class="css-comment-date js-comment-date">
+    2014-07-28T07:08:10.681Z
+  </div>
+  </div>
+  <div class="css-comment-content js-comment-content">
+    Implement a sparse matrix!
+  </div>
+  <br/>
+</div>
+</div>
