@@ -6,6 +6,7 @@ words_per_minute: 200
 
 url:			   http://recklessdev.github.io/
 
+encoding: utf-8
 
 owner:
   name:           Sebastian Gorobievschi
@@ -36,7 +37,7 @@ bing_verify:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-highlighter: Pygments
+highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
