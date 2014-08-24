@@ -3,16 +3,15 @@ description:      Tales of a level 23 human programmer from the mighty quest of 
 disqus_shortname: recklessdev
 reading_time:     true
 words_per_minute: 200
-#Your site's domain goes here. Leave localhost server or blank when working locally.
+
 url:			   http://recklessdev.github.io/
 
-# Owner/author information
+
 owner:
   name:           Sebastian Gorobievschi
   avatar:         avatar.jpg
   bio:            "My name is Sebastian. I enjoy coding, designing applications and sharing knowledge; on this blog I'm writing about game development."
   email:          sebastian.gorobievschi@recklessdev.com
-  # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
   github:         
@@ -69,7 +68,7 @@ defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
-      type: posts
+      type: post
     values:
       layout: "post"
       comments: true
