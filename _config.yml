@@ -4,9 +4,9 @@ disqus_shortname: recklessdev
 reading_time:     true
 words_per_minute: 200
 
-#url:			   https://recklessdev.github.io/
+url:			        https://recklessdev.github.io/
 
-encoding: utf-8
+encoding:         utf-8
 
 owner:
   name:           Sebastian Gorobievschi
