@@ -96,7 +96,7 @@ Like in messaging, whenever one of those methods fails make sure you throw a pro
 
 #Encapsulating: Clean Design Using OOP for Core Features
 
-Although Unity is using ESC paradigm we can still make use of OOP concepts to create beautiful designs. This is not a completely different approach though, but merely a new tool in our game development toolbox that can be used along with ECS or Unity without breaking anything and without sacrificing readability.
+Although Unity is using ECS paradigm we can still make use of OOP concepts to create beautiful designs. This is not a completely different approach though, but merely a new tool in our game development toolbox that can be used along with ECS or Unity without breaking anything and without sacrificing readability.
 
 With this approach, our main focus is abstraction. Basically we design thinking how to properly separate concerns, minimize dependencies and encapsulate implementation details in the scope of modules. We aim for separating the Model from the View (especially or maybe only for core features) and make heavy use of interfaces in order to control the communication.
 
