@@ -1,33 +1,29 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tags: [Jekyll, theme, modern, minimal, responsive]
-image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-share: true
+title: Who am I?
 ---
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
+[![Nice to meet you](/images/avatar.jpg)](/images/avatar.jpg)
+**Well... me**
+{: class="post-image post-image-right"}
 
-## What HPSTR brings to the table:
+My name is Sebastian. Sometimes I use **`memleak`** or **`recklessdev`** as internet nicknames. 
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Comments powered by [Disqus](http://disqus.com) if you choose to enable.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
-* [Grunt](http://gruntjs.com) build script for easy theme development
+In real life, I am a software development engineer, working mainly with C++. Here, I am a careless developer creating video games and blogging about programming, design and anything else that will come to my attention and is related to game creation.
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
+# But why RecklessDev as the blog name?
 
-[^1]: Example: *domain.com/category-name/post-title*
+> reck•less (ˈrɛk lɪs) 
+> 
+> adj.
+>
+> 1. utterly unconcerned about consequences; rash; careless (sometimes fol. by of): reckless drivers; to be reckless of danger.
+>
+> 2. characterized by or proceeding from such carelessness: reckless extravagance.
+
+As I mentioned, I am actually a programmer. I write stuff that supposely compiles. And, I admit that at first I wanted to use a name such as `AwesomeDev`, `BestCodeEver` or `AmazingDeveloperWhoWritesAmazingCodeAlthoughEveryoneKnowsIsNotAlwaysTrue` the truth is those characteristics are really not yet to be found in this profession. If I think at programming in general, `reckless` is one of the first words that comes into minds.
+
+Reckless, not because we don't know what we do (although lots of developers really have no idea what they're doing), we don't have the knowledge and experience to do better or maybe because we don't care but really because we are driven by the immediate results and solutions and much less by what tomorrow lies.
+
+Is not a bad thing. Is quite awesome actually.
