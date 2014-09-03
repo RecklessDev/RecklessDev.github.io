@@ -1,1 +1,4 @@
-url: 
+#Configuration related to local development envinronment
+
+#Disable the URL so we can use localhost for the website
+url: http://localhost:4000/

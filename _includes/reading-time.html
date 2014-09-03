@@ -1,0 +1,4 @@
+<i class="fa fa-clock-o"></i>
+{% assign number_of_words_in_page = page.content | number_of_words | divided_by: 1.0 %}
+{% assign readtime =  number_of_words_in_page | divided_by: site.words_per_minute %}
+Reading time ~{% if readtime <= 2 %}{{ 2 }}{% else %}{{ readtime }}{% endif %} minutes
