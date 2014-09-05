@@ -1,3 +1,13 @@
+jekyllThread = Thread.new { 
+	system "bundle exec jekyll serve --config _config.yml,_config-dev.yml --watch" 
+}
+
 gruntThread = Thread.new { system "grunt watch" }
-sleep(2.0)
-jekyllThread = Thread.new { system "bundle exec jekyll serve --config _config.yml,_config-dev.yml --watch" }
+
+jekyllThread.join
+gruntThread.join
+
+at_exit {
+  jekyllThread.exit
+  gruntThread.exit
+}
