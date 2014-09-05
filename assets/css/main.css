@@ -5220,6 +5220,21 @@ body {
   }
 }
 
+#post-index article .post-image {
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#post-index article .post-image strong {
+  display: block;
+}
+
+#post-index article .post-image-right {
+  float: right;
+  margin: 0 0px 0px 10px;
+}
+
 .footer-wrapper {
   margin: 2em auto;
   color: #555555;
