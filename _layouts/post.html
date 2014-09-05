@@ -54,7 +54,7 @@
         </div><!-- /.social-share -->{% endif %}
       </footer>
     </div><!-- /.entry-content -->
-    {% if site.disqus_shortname and page.comments %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+    
     {% if site.related_posts.size %}
     <div class="read-more">
       {% for post in site.related_posts limit:1 %}
@@ -74,8 +74,10 @@
           </div><!-- /.list-item -->
         {% endfor %}
       </div><!-- /.read-more-list -->
-      {% endif %}
     </div><!-- /.read-more -->
+    {% endif %}
+
+    {% if site.disqus_shortname and page.comments %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
   </article>
 </div><!-- /#main -->
 
