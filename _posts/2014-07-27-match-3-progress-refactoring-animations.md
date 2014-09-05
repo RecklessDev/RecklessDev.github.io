@@ -2,8 +2,6 @@
 title: "Match 3 progress: Refactoring, animations and custom combination recipes"
 ---
 
-#Match 3 progress: Refactoring, animations and custom combination recipes
-
 After a session of refactoring, the game is (again) working. Things are now nicely separated and I've removed all the initial hacks. Tried to separate the module responsible for game board management so I have a reusable component for similar games in the future.
 
 [![Match 3 game view](/images/post_match_3_progress.gif)](/images/post_match_3_progress.gif)

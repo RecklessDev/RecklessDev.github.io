@@ -2,8 +2,6 @@
 title: "Inspector-only variables in Unity3D using C#"
 ---
 
-#Inspector-only variables in Unity3D using C#
-
 Sometimes you might want to create a component in Unity such that its data members behave differently in the inspector and in the code.
 Let’s take a simple example:
 
