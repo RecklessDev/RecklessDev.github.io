@@ -102,8 +102,8 @@ With this approach, our main focus is abstraction. Basically we design thinking 
 
 Factories get the responsibility of properly instantiating stuff without leaking knowledge on how or from where are the objects coming. Interfaces will hide the model from the Unity components while still providing all the required functionality. Events will provide a way for the Model to receive information directly from the view without strongly coupling the two of them. Events basically replace the messaging.
 
-[![UML Diagram for Lil' Timmy's code](/images/post_architecture_overview.png)](/images/post_architecture_overview.png)
-**UML Diagram for Lil' Timmy's code**
+[![Architecture Overview](/images/post_architecture_overview.png)](/images/post_architecture_overview.png)
+**Architecture Overview**
 {: class="post-image"}
 
 This is a type of architecture that you don't really want to spread to a whole project but rather keep it as a *black-box* for specific features.
